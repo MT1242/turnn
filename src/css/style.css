@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+ :root{
+    --primary-color: #228415;
+    --secondary-color:  #6D6D6D;
+    --footer-color: #2D2D2D;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto Condensed','Times New Roman', Times, serif;
+}
