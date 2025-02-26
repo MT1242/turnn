@@ -10,6 +10,124 @@
     <link rel="stylesheet" href="/src/css/style.css" />
     <title>ĐÁ QUÝ PHONG THỦY</title>
   </head>
+  <style>
+    /* Import font từ Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Định nghĩa biến màu */
+:root {
+  --primary-color: #228415; /* Màu chính */
+  --secondary-color: #6d6d6d; /* Màu phụ */
+  --footer-color: #2d2d2d; /* Màu footer */
+  --text-color: #000000;
+}
+
+/* Thiết lập kiểu chữ và khoảng cách mặc định cho tất cả các phần tử */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+/* Cấu trúc chung cho các phần tử */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+  line-height: 1.6;
+
+}
+.header{
+    box-sizing: border-box;
+    max-width: 80%;
+}
+/* Phần header */
+.header-section {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-section .logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Phần top bar */
+.top-bar {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 0;
+}
+
+.top-bar p {
+  margin: 0;
+}
+
+/* Cấu trúc phần menu */
+.menu-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 0;
+}
+
+.product-category {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.list-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list-menu li:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Phần footer */
+.footer {
+  background-color: var(--footer-color);
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Thanh tìm kiếm */
+.search-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+.cart-form {
+  display: inline-block;
+  margin-left: 20px;
+  color: var(--text-color);
+}
+
+.cart-form i {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+  </style>
   <body>
     <header>
       <div class="header-container">
